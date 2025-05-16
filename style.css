@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  background: rgb(11, 51, 77);
+}
+
+.item {
+  height: 100px;
+  user-select: none;
+}
+
+.top-container,
+.down-container {
+  height: 180px;
+  padding: 16px;
+}
+
+.top-container {
+  background: rgb(39, 36, 67) url("images/top.jpg") repeat-x top;
+  background-size: contain;
+  padding-top: 72px;
+}
+
+.down-container {
+  background: url("images/down.jpg") repeat-x top;
+  background-size: contain;
+  padding-top: 65px;
+}
+
+.water {
+  background: url("images/water.jpg") top;
+  background-size: contain;
+  height: 250px;
+  animation-name: move_water;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.inside {
+  position: sticky;
+}
+
+.boat-image {
+  height: 155px;
+  position: absolute;
+}
+
+.boat {
+  padding-top: 12px;
+  display: inline-block;
+  height: 155px;
+  width: 250px;
+  transition: 0.3s margin-top ease;
+  animation-name: shake_boat;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.details {
+  font-size: 20px;
+  padding: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@keyframes shake_boat {
+  to {
+    transform: rotate(-6deg);
+  }
+}
+
+@keyframes move_water {
+  to {
+    background-position: 10px 0;
+  }
+}
