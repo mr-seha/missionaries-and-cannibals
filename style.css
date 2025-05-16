@@ -65,6 +65,7 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+  margin-left: 20px;
 }
 
 .details {
