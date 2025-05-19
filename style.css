@@ -41,9 +41,10 @@ body {
   background-size: contain;
   height: 250px;
   animation-name: move_water;
-  animation-duration: 25s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: normal;
+  animation-timing-function: linear;
 }
 
 .inside {
