@@ -36,11 +36,11 @@ body {
   padding-top: 65px;
 }
 
-.water {
-  background: url("images/water.jpg") top;
+.river {
+  background: url("images/river.jpg") top;
   background-size: contain;
   height: 250px;
-  animation-name: move_water;
+  animation-name: move_river;
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -82,7 +82,7 @@ body {
   }
 }
 
-@keyframes move_water {
+@keyframes move_river {
   to {
     background-position: 10px 0;
   }
