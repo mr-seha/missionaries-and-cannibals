@@ -1,26 +1,44 @@
-# 🎮 بازی کشیش‌ها و آدم‌خوارها (Missionaries and Cannibals)
+# Missionaries and Cannibals – Web Implementation
+
+Web-based implementation of the classic **Missionaries and Cannibals** problem using **HTML**, **CSS**, and **JavaScript**.
+
+## Problem Description
+
+Three missionaries and three cannibals need to cross a river using a boat that can carry **a maximum of two people**. At no point (on either side of the river) can the number of cannibals exceed the number of missionaries — or the missionaries will be eaten!
+
+The goal is to move everyone to the other side of the river safely, following these rules.
+
+## Screenshot
 
 ![Screenshot of program](images/screenshot.png)
 
-این پروژه یک پیاده‌سازی ساده از بازی کلاسیک **کشیش‌ها و آدم‌خوارها** است که با زبان **JavaScript** توسعه داده شده است. هدف بازی این است که همه‌ی کشیش‌ها و آدم‌خوارها را با استفاده از قایق به سلامت از رودخانه عبور دهید، بدون اینکه تعداد آدم خوار ها در یک سمت از تعداد کشیش ها بیشتر شود.
 
----
+## Features
 
-## قوانین بازی
+- Visual interface with characters, boat, and river
+- Enforced game rules (no illegal states allowed)
+- Interactive gameplay using mouse events
+- Feedback when the game is won or if a mistake is made
 
-- سه کشیش و سه آدم‌خوار در یک سمت رودخانه قرار دارند.
-- یک قایق وجود دارد که حداکثر ظرفیت آن ۲ نفر است.
-- در هر سمت رودخانه، اگر تعداد آدم‌خوارها از کشیش‌ها بیشتر شود، کشیش‌ها خورده می‌شوند و بازیکن می بازد.
-- هدف شما این است که با رعایت این قانون، همه را سالم به سمت دیگر رودخانه منتقل کنید.
 
----
+## 🛠 Technologies Used
 
-## ویژگی‌ها
+- **HTML5** – for structure
+- **CSS3** – for styling the river, characters, and boat
+- **JavaScript** – for game logic, movement, and state handling
 
-- رابط کاربری ساده و مینیمال (HTML/CSS/JS)
+## Getting Started
 
-- منطق کامل بازی در جاوااسکریپت پیاده‌سازی شده است
+1. Clone the repository:
 
-- نمایش پیام برد و باخت
+```bash
+git clone https://github.com/mr-seha/missionaries-and-cannibals.git
+```
 
-- قابل اجرا در مرورگر، بدون نیاز به نصب
+2. Open `index.html` in your browser to start the game:
+
+```bash
+open index.html
+```
+
+Or just double-click the file from your file explorer.
