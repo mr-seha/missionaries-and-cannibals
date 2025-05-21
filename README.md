@@ -12,14 +12,12 @@ The goal is to move everyone to the other side of the river safely, following th
 
 ![Screenshot of program](images/screenshot.png)
 
-
 ## Features
 
 - Visual interface with characters, boat, and river
 - Enforced game rules (no illegal states allowed)
 - Interactive gameplay using mouse events
 - Feedback when the game is won or if a mistake is made
-
 
 ## 🛠 Technologies Used
 
@@ -35,10 +33,4 @@ The goal is to move everyone to the other side of the river safely, following th
 git clone https://github.com/mr-seha/missionaries-and-cannibals.git
 ```
 
-2. Open `index.html` in your browser to start the game:
-
-```bash
-open index.html
-```
-
-Or just double-click the file from your file explorer.
+2. Open `index.html` in your browser to start the game or just double-click the file from your file explorer.
