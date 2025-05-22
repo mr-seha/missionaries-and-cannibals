@@ -19,7 +19,7 @@ The goal is to move everyone to the other side of the river safely, following th
 - Interactive gameplay using mouse events
 - Feedback when the game is won or if a mistake is made
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML5** – for structure
 - **CSS3** – for styling the river, characters, and boat
@@ -34,3 +34,7 @@ git clone https://github.com/mr-seha/missionaries-and-cannibals.git
 ```
 
 2. Open `index.html` in your browser to start the game or just double-click the file from your file explorer.
+
+## Author
+
+Developed by **Mohammadreza Souri**
